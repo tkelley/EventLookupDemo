@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Search</title>
+
+    <link rel="stylesheet" type="text/css" href="~/assets/css/eventSearch.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="~/assets/js/eventSearch.js"></script>
+</head>
+<body>
+    <h2>Find an Event</h2>
+
+    <div class="search-filter">
+        <label for="keyword">Search:</label>
+        <input id="keyword" name="keyword" type="search" placeholder="Keyword">
+        <button id="keywordSearchBtn" class="btn">Search</button>
+    </div>
+
+    <table class="search-results">
+        <thead>
+            <tr>
+                <th class="thead-id">ID</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <div class="search-results-empty"></div>
+</body>
+</html>

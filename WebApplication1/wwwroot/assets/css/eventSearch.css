@@ -1,0 +1,18 @@
+﻿label{
+    font-weight:bold;
+}
+.search-results {
+    display:none;
+    margin-top:15px;
+}
+.search-results td {
+    padding:3px 5px;
+}
+.search-results .thead-id {
+    text-align:left;
+    width: 50px;
+}
+.search-results-empty {
+    display:none;
+    margin-top:15px;
+}
